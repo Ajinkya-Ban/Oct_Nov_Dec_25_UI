@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 80%;
+        min-height: 100px;
+        /* border: 1px solid #000; */
+        margin: auto;
+        padding: 10px;
+      }
+      .box h1 {
+        text-align: center;
+        color: red;
+      }
+      .form-data {
+        width: 100%;
+        min-height: 100px;
+        /* border: 1px solid red; */
+        box-shadow: 10px 10px 15px gray;
+      }
+      table,
+      tr,
+      td {
+        padding: 5px;
+        border: 1px solid lightgray;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      input[type="text"],
+      input[type="number"],
+      input[type="date"],
+      input[type="email"] {
+        width: 60%;
+        padding: 8px;
+        /* text-align: center; */
+        font-size: 16px;
+      }
+      #class {
+        width: 62.5%;
+        padding: 8px;
+      }
+      #country {
+        width: 62.5%;
+        padding: 8px;
+      }
+      #city {
+        width: 62.5%;
+        padding: 8px;
+      }
+      #add {
+        width: 60%;
+        padding: 8px;
+      }
+      #reg {
+        width: 140px;
+        padding: 10px 20px;
+        background-color: royalblue;
+        color: white;
+        border: none;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Student Registration Form</h1>
+
+      <div class="form-data">
+        <form>
+          <table>
+            <tr>
+              <td><label for="txtname">Enter FullName</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="txtname"
+                  id="txtname"
+                  placeholder="Enter your fullname"
+                  autocomplete="off"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="txtage">Enter Age</label></td>
+              <td>
+                <input
+                  type="number"
+                  name="txtage"
+                  id="txtage"
+                  placeholder="Enter your age"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label>Select Gender</label></td>
+              <td>
+                <input type="radio" name="gender" value="male" /> Male
+                <input type="radio" name="gender" value="female" /> Female
+                <input type="radio" name="gender" value="other" /> Other
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="birth">Select Birthdate</label></td>
+              <td>
+                <input type="date" id="birth" name="birth" />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="email">Enter Email Address</label></td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter Email"
+                  autocomplete="off"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="mob">Enter Mobile Number</label></td>
+              <td>
+                <input
+                  type="number"
+                  id="mob"
+                  name="mob"
+                  placeholder="Enter Mobile Number"
+                  autocomplete="off"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="class">Select Class</label></td>
+              <td>
+                <select id="class" name="class">
+                  <!-- <optgroup label="India">
+                    <option value="pune">Pune</option>
+                    <option value="mumbai">Mumbai</option>
+                  </optgroup>
+                  <optgroup label="Dubai">
+                    <option value="ABC">ABC</option>
+                    <option value="xyz">XYZ</option>
+                  </optgroup> -->
+                  <option value="select">---Select---</option>
+                  <option value="bca">BCA</option>
+                  <option value="mca">MCA</option>
+                  <option value="btech">B.Tech</option>
+                  <option value="mtech">M.Tech</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="skill">Select Skills</label>
+              </td>
+              <td>
+                <input type="checkbox" id="html" name="html" />HTML
+                <input type="checkbox" id="css" name="css" />CSS
+                <input
+                  type="checkbox"
+                  id="javascript"
+                  name="javascript"
+                />JavaScript
+                <input type="checkbox" id="tailwind" name="tailwind" />Tailwind
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="country">Select Country</label></td>
+              <td>
+                <!-- we pass another attribute for select 1. multiple and 2. disabled -->
+                <select name="country" id="country">
+                  <option value="select">---Select---</option>
+                  <option value="ind">India</option>
+                  <option value="aus">Austrilia</option>
+                  <option value="Dubai">Dubai</option>
+                  <option value="Russia">Russia</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="city">Select City</label></td>
+              <td>
+                <!-- we pass another attribute for select 1. multiple and 2. disabled -->
+                <select name="city" id="city">
+                  <option value="select">---Select---</option>
+                  <option value="pun">Pune</option>
+                  <option value="mumbai">Mumbai</option>
+                  <option value="nashik">Nashik</option>
+                  <option value="thane">Thane</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="add">Enter Permanant Address</label></td>
+              <td>
+                <textarea name="add" id="add" rows="5"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="photo">Select Photo</label></td>
+              <td>
+                <input type="file" id="photo" name="photo" />
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <!-- <td><input type="button" id="reg" value="Register" /></td> -->
+              <td>
+                <button id="reg">Register</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

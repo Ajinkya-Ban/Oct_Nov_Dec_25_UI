@@ -1,0 +1,167 @@
+Basic Tags in html
+----------------------------
+block level element : p, h1 to h6, img, div, ul, li, ol
+
+1. html
+2. head
+3. title
+4. body
+5. p --> paragraph --> static text
+6. img --> to load the images on page --> Attr --> src, alt, height, width
+7. a --> anchor --> to switch between page --> href , target
+8. pre --> preformatted text
+9. marquee --> scrolling effect --> Attr --> direction => left, right, up, down --> scrollamount="7" onmouseover=this.stop() onmouseleave = this.start()
+10. abbr: Abbravation --> Attr --> title --> to display extra information about the word
+11. span --> internally it works as container.
+12. b --> bold text 
+13. i / em  --> to make the text itelic
+14. u --> to write underline
+
+
+Sementic Tags:
+------------------------------
+In 2009, google closes meta keywords. Meta keywords can be used for to perform the SEO(Search Engine Optimization) operation.
+
+Sementic tags can be used for to perform the SEO operation.
+
+Def : Sementic tags are those tag which you does not need to define the extra there name tells us there functions.
+
+Example:
+---------------------
+1. nav --> navigation --> Menu --> anchor tag 
+2. header --> header contains name company, logo of the company, menus, follow us icons
+3. section --> section is the replacement for <div></div> 
+4. main --> main is the replacement for <body></body>
+5. footer --> footer contains other links, contact information, map, followus icons, company information
+6. audio --> 
+7. video --> 
+8. article --> small section of news 
+
+----------------------------------------------------------------------------------------
+Ordered List and UnOrdered List(OL, UL):
+---------------------------------------------
+1. Basically ul and ol tag can be used for to create the menus.
+2. menu should be in the form dropdown menu or simple menu.
+
+OL(Ordered List):
+----------------------------------
+1. In the OL tag there should be order or sequance.
+2. The default order of ol is number.
+3. To change the sequance we can use the attribute called as 'type'.
+4. You can also change the sequance by using css property.
+5. You can also use nested ol.
+6. You can also use the attribute like start and reversed. start indicate to start the sequance from perticular number and reversed indicate it will print the sequance in reversed order.
+
+
+UL(UnOrdered List):
+-----------------------------------
+1. In the ul tag there should be no sequance.
+2. The default sequance for ul tag is bullets or disk.
+3. You can change the sequance of ul by using only css property. The type attribute is depricated for ul tag.
+4. You can also use nested ul. 
+5. You can not use the attribute like start and reversed.
+
+
+Table Tag:
+------------------------
+1) Table tag is nothing it contains rows and cols.
+2) By using table tag we can display the data from database on webpage.
+3) By using the table tag we align the form content.
+4) In html4 we can use the table for desgin the layout. But the problem is that table tag does not support for the responsive desgin.
+
+Suppose i want to define the table the follwoing tag used,
+1. table --> it will create table container 
+2. th --> table heading(column name)
+3. tr --> table rows
+4. td --> table data
+5. thead --> table heading --> It will create a group column names.
+6. tbody --> It is the group of table row
+
+If we want to use icons on page we use the concept called as fontawesome icons. 
+For that first you need fontawesome cdn library.
+
+
+Form Tag:
+---------------------------
+Why we use the form?
+--------------------------------------
+Form can be used to collect user data. 
+Form can be used to pass the data into database.
+
+Syntax
+-------------------
+<form>
+    fields
+</form>
+
+
+Q. What are the different attribute of <form></form> tag?
+-------------------------------------------------------------------
+1. action : where you want go ?
+2. method : http method --> get, post, put, patch, delete
+                            get : to get the data from database
+                            post : to save the data into database or to check login 
+                            put : To update the data, full updation
+                            patch : To update the data, partial updation. 
+                            delete : To delete all records or specific record. 
+
+3. name : 
+4. id 
+5. autocomplete : 
+6. enctype : suppose i want to upload photo as well as any file like .pdf, .txt, .docx
+7. accept-char-set : utf-8
+8. novalidation : It removes the validations from form.
+
+
+
+With attributes 
+-------------------------
+login check logic ---> login.php 
+
+<form action="login.php" method="get" name="registration" id="regi" enctype="multipart/form-data">
+    fileds
+</form>
+
+
+Form desgin:
+----------------------
+Student Registration Form 
+-------------------------------------
+table tag 
+slight css 
+
+fields 
+---------------------
+name --> input --> text
+age  --> input --> number 
+gender --> input --> radio button 
+birthdate --> input --> date
+email  --> input --> email
+mob  ---> input --> number
+class ---> select --> dropdown list 
+skills --> html, css, javascript, bootstrap,tailwind --> checkbox 
+Country --> select
+State  --> select
+City --> text 
+Talkua --> text
+Village --> select or text 
+Address --> textarea 
+upload photo 
+
+
+
+
+<form action="login.php" method="get/post" enctype="multipart/form-data">
+<table>
+<tr>
+<td></td>
+</tr>
+</table>
+</form>
+
+different input type
+text 
+number ---> digit 
+email 
+password
+file  

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        /* list-style-type: none;
+        list-style-image: url(./imgs/arrow.png); */
+      }
+      ul li::marker {
+        color: red;
+        font-size: 24px;
+      }
+      ul li ul {
+        list-style-type: disc;
+      }
+      ul li ul li::marker {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>UL Demo😀</h1>
+
+    <ul>
+      <li>
+        Tea
+        <ul>
+          <li>Green Tea</li>
+          <li>Black Tea</li>
+          <li>Lemon Tea</li>
+        </ul>
+      </li>
+      <li>Coffee</li>
+      <li>Drinks</li>
+    </ul>
+  </body>
+</html>
