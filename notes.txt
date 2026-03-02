@@ -165,3 +165,14 @@ number ---> digit
 email 
 password
 file  
+-----------------------------------------------------------------------------------------------
+Image Map:
+------------
+What is mean by image map?
+-----------------------------
+The image map is nothing to create small clickable areas on image. 
+
+To create image map using html, we need to use two tag.
+a) map 
+b) area 
+
