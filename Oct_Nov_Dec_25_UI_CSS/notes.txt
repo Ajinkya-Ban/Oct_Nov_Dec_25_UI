@@ -1,0 +1,119 @@
+Introduction to CSS:
+-------------------------------
+Q. What is mean by CSS?
+FullForm --> Cascadeing Stylesheet 
+
+Cascadeing --> To set the priority. 
+1. Browser
+2. external css 
+3. internal css 
+4. inline css 
+
+Stylesheet --> it is one of the type programming langauge.
+
+Def : CSS is a beautiy parler for html elements.  
+
+histroy:
+----------------------------------------------------
+The css defined by Hackom Lui in 1996.  
+The first version of css came in market 1996 the name was css level first. 
+The second version of css came in market in 1998 and the name was css level second.  
+After the 10yrs in 2008 the latest css was introduced with major properties and called as CSS3.  
+
+What are the advantages of css?
+-------------------------------------------------
+1. Clean code structure  ---> html file + CSS file 
+2. Responsive Page design ---> media query 
+3. Code maintaaince easily 
+4. Reusability ---> one css file control all html pages.  
+
+Explain the different types of css? 
+------------------------------------------------------
+There are three types of css present which are listed below 
+a) inline css --> inside the html tag 
+b) internal css --> inside the html page in head section.  
+c) external css  
+
+
+Q. What is mean by selectors in css?
+----------------------------------------------------------------
+selectors means targetting the element. 
+We can target the element by using below ways, 
+a) by using id --> id selectors unique. it is denoted by # symbol
+
+b) by using class --> class denoted by .(dot), we can apply multiple class to a single element.
+
+
+c) by using tagname/elements -->  we can target by using html tag 
+
+
+
+d) group selectors --> we create a group element to target.
+
+
+
+e) by using classname with tag 
+
+f) by using pseduo elements:
+-----------------------------------------
+There are total 7 pseduo elements present in css. 
+pseduo element can not added with html code.  
+The pseduo elements  denoted  by :: colon
+The following are some pseduo elements present inside css which is listed below 
+a) ::after 
+b) ::before
+
+Note: before and after these properties works only when we pass one css property called as 'content'.
+
+c) ::first-line 
+d) ::first-letter 
+e) ::selection 
+f) ::placeholder
+g) ::marker
+
+
+
+
+
+g) by using pseduo classes 
+h) by using univarsal selectors
+
+
+
+
+Q. What is mean by css box model?
+----------------------------------------------------------------
+1. margin : outside the space of border is called margin. 
+margin runs in clock wise direction. 
+margin-top 
+margin-right 
+margin-bottom 
+margin-left 
+
+
+margin: 10px --> all side margin 10px set 
+margin: 10px 20px ---> top-bottom 10px and left-right 20px 
+margin: 10px 5px 4px 0px;
+
+2. padding : Innser space of border is called as padding.
+
+3. border 
+
+Q. how we can declare the variable in css?
+
+:root{
+    --variable_name : value
+}
+
+calling the varibale 
+h1{
+    css_property:var(--variable_name)
+}
+
+
+
+
+
+
+
+

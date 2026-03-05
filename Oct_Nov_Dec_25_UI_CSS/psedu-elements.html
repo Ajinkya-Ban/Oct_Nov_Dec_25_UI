@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 400px;
+        min-height: 100px;
+        border: 1px solid #000;
+        margin: auto;
+        background-color: blanchedalmond;
+      }
+      .box h1 {
+        padding: 10px;
+        text-align: center;
+      }
+      .box p {
+        padding: 10px;
+        text-align: justify;
+      }
+      .box h1::before {
+        content: "😃";
+      }
+      .box h1::after {
+        content: "🤣";
+      }
+      .box p::first-line {
+        color: red;
+      }
+      .box p::first-letter {
+        font-size: 34px;
+        font-weight: bold;
+        font-style: italic;
+      }
+      ::selection {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Welcome To CSS</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, blanditiis
+        deserunt. Quibusdam dolorem laborum quia quidem! Ducimus quaerat sequi
+        eius, pariatur cumque eum facere? Sit distinctio obcaecati ipsum odio
+        architecto.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+        facilis labore aspernatur rem earum sapiente quasi ipsam quia cum
+        eligendi vitae, esse atque est nam illo sed cupiditate et. Aperiam, quia
+        dignissimos quaerat voluptatibus numquam qui! Debitis rem repudiandae,
+        delectus reiciendis placeat autem ab libero itaque impedit tempore nemo
+        temporibus!
+      </p>
+    </div>
+  </body>
+</html>
