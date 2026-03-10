@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  min-height: 100px;
+  /* border: 1px solid lightgray; */
+  margin: auto;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+.header h1 {
+  color: white;
+  padding: 10px;
+  font-size: 34px;
+  font-weight: bolder;
+}
+.menu {
+  width: 100%;
+  height: 60px;
+  background-color: blanchedalmond;
+  margin-top: 5px;
+}
+.menu ul {
+  list-style-type: none;
+  width: 100%;
+}
+.menu ul li {
+  display: inline-block;
+  padding-top: 15px;
+}
+.menu ul li a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* psedu class */
+.menu ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* slider code */
+
+.slider {
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid #000; */
+  margin-top: 5px;
+}
+
+/* main box */
+
+.main-box {
+  width: 100%;
+  min-height: 300px;
+  /* border: 1px solid #000; */
+  margin-top: 5px;
+}
+.main-box .bar {
+  width: 20%;
+  min-height: 300px;
+  background-color: gray;
+  float: left;
+}
+
+.main-box .cont {
+  width: 79%;
+  min-height: 300px;
+  background-color: lightgray;
+  float: right;
+}
+/* custom class for float problem */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.footer p {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 60px;
+}

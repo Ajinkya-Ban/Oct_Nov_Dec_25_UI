@@ -38,6 +38,14 @@
         background-color: black;
         color: white;
       }
+      input[type="text"]::placeholder {
+        color: red;
+        font-size: 14px;
+        text-align: center;
+      }
+      ul li::marker {
+        color: royalblue;
+      }
     </style>
   </head>
   <body>
@@ -57,6 +65,15 @@
         delectus reiciendis placeat autem ab libero itaque impedit tempore nemo
         temporibus!
       </p>
+      <form>
+        <input type="text" placeholder="Enter name" />
+
+        <ul>
+          <li>JavaScript</li>
+          <li>Html</li>
+          <li>CSS</li>
+        </ul>
+      </form>
     </div>
   </body>
 </html>

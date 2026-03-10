@@ -69,13 +69,12 @@ c) ::first-line
 d) ::first-letter 
 e) ::selection 
 f) ::placeholder
-g) ::marker
+g) ::marker --->  List bullets style change
 
 
+g) by using pseduo classes : indicated by sinle colon(:). In css there are total 35 classes present. 
 
 
-
-g) by using pseduo classes 
 h) by using univarsal selectors
 
 
@@ -98,7 +97,7 @@ margin: 10px 5px 4px 0px;
 2. padding : Innser space of border is called as padding.
 
 3. border 
-
+----------------------------------------------------------------------------
 Q. how we can declare the variable in css?
 
 :root{
@@ -110,10 +109,33 @@ h1{
     css_property:var(--variable_name)
 }
 
+Q. how we can design the layout by using 10 properties of css?
+------------------------------------------------------------------------
+Below are 10 properties which is listed,
 
+1. width 
+2. height / min-height
+3. color 
+4. border 
+5. margin 
+6. padding 
+7. float ---> left, right 
+8. background-color 
+9. font-size, font-family, font-weight
+10.text-decoration
+11. display --> block, inline, inline-block
 
+Page desgin by using two ways 
+-----------------------------------
+1. center page design  --> 80%, 60% 
+2. full width desgin --> 100%
 
-
+color code
+---------------
+primary ---> 37353E
+secondary --> 44444E
+third --> 715A5A
+fourth D3DAD9
 
 
 
