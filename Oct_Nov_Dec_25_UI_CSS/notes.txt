@@ -137,5 +137,94 @@ secondary --> 44444E
 third --> 715A5A
 fourth D3DAD9
 
+-------------------------------------------------------------------------------------
+background properties in css
+--------------------------------
+1. background-color
+----------------------------------
+This property can be used for to set background color to the div. It has one drawback when using background color we use only one color at time. 
+We pass color name as 
+1. by using color name 
+2. by using hexadecimal value 
+3. by using rgba. 
+
+But my requirement is to set multiple color at a time. Than i can use the property called as background-image.
+
+
+
+2. background-image:
+-------------------------------------
+background-image has two task, 
+1. set background image 
+2. set background color : to set multiple background color we can use one function in css called as linear-gradient().
+
+Syntax:
+----------------
+linear-gradient(direction, colors)
+
+where,
+direction 
+----------------
+to right
+to left
+to top
+to bottom
+degree 
+
+2. background-size: 
+-------------------------------
+It will take two parameter width and height. 
+When we pass width as 100% and height 100% than i can get original image. 
+You can also pass the property like cover and contain.
+
+3. background-position:
+---------------------------------------
+By default image has the position top left side. You can change the position of the image by using some properties like, 
+
+1. center center 
+2. top right 
+3. bottom right 
+4. bottom left 
+5. center right 
+6. center left 
+7. top center 
+8. bottom center 
+
+
+4. background-repeat:
+-----------------------------------
+1. repeat (default)
+2. no-repeat
+3. repeat-x 
+4. repeat-y
+
+
+5. background-attachment:
+-------------------------------------
+1. scroll 
+2. fixed 
+
+=========================================================================================
+position properties in css 
+-----------------------------------
+all element in html are static in nature. All static element move by using margin and padding. 
+So, requirement is i want to move all static element without usig margin and padding.  
+CSS offers me some properties to move the static element without using margin and padding.
+below are some properties,
+a) relative 
+b) absloute
+c) sticky 
+d) fixed 
+e) static(default)
+
+All static element move by using position properties for this we need to use some properties again
+
+1. top 
+2. bottom
+3. right
+4. left 
+5. z-index
+
+
 
 

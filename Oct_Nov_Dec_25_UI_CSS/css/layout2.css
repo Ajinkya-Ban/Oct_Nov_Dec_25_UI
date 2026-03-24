@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
 }
 .wrapper {
   width: 80%;
@@ -118,17 +121,17 @@
 .content {
   width: 100%;
   min-height: 200px;
-  border: 1px solid #000;
+  border: 1px solid lightgray;
   margin-top: 5px;
 }
 .row {
   width: 100%;
-  min-height: 300px;
+  min-height: 200px;
   padding: 10px;
 }
 .row .desc {
   width: 78%;
-  min-height: 300px;
+  min-height: 200px;
   float: left;
 }
 .desc p {
@@ -143,4 +146,45 @@
 }
 .photo img {
   width: 100%;
+}
+
+.row1 {
+  width: 100%;
+  min-height: 200px;
+  padding: 10px;
+}
+.row1 .desc1 {
+  width: 78%;
+  min-height: 200px;
+  float: right;
+}
+.desc1 p {
+  padding: 10px;
+  text-align: justify;
+}
+.row1 .photo1 {
+  width: 20%;
+
+  float: left;
+  border: 1px solid lightgray;
+}
+.photo1 img {
+  width: 100%;
+}
+.adv {
+  width: 100%;
+  padding: 10px;
+}
+.adv img {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #37353e;
+}
+.footer p {
+  color: white;
+  text-align: center;
+  line-height: 60px;
 }
