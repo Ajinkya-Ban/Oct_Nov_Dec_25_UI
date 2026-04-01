@@ -225,6 +225,12 @@ All static element move by using position properties for this we need to use som
 4. left 
 5. z-index
 
-
+-----------------------------------------------------------------------------------------
+backdrop-filter 
+--------------------
+This property can be used for to make the image background as blur.  
+Basically this property can be used for to make glassomorphism UI. 
+blur()
+brightness()
 
 

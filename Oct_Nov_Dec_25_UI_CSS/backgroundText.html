@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 80%;
+        min-height: 100px;
+        margin: auto;
+        border: 1px solid #000;
+      }
+      .slider {
+        width: 100%;
+        height: 600px;
+        background-image:
+          linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+          url(./imgs/road.jpeg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative;
+      }
+      .text p {
+        color: white;
+        font-size: 2.4vmax;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider">
+        <!-- <img src="./imgs/road.jpeg" /> -->
+
+        <div class="text">
+          <p>
+            Life is simple: wake up, think about vadapav, eat vadapav, share
+            vadapav, dream vadapav, repeat daily, because happiness comes
+            wrapped in pav with spicy chutney and zero regrets at all.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
