@@ -233,4 +233,65 @@ Basically this property can be used for to make glassomorphism UI.
 blur()
 brightness()
 
+==========================================================================
+display property:
+-------------------------
+1. block   --
+2. inline
+---------------------------
+This property can be used for to arrange the element in horizantal direction. When we use inline than padding-top, margin-top, margin-botton, width and height cant work. 
+
+
+3. inline-block
+----------------------------------
+This property can be used for to arrange the element in horizantal direction. When we use inline-block than padding-top, margin-top, margin-botton, width and height can work.
+
+=========================================================================================
+display as Flex:
+----------------------------
+1. The meaning of flex is that, to make each div as flexible.  
+2. When we use the flex, the flex can support 70% of the pages responsive. 
+3. Flex has one drawback,it can work on only one direction at time either on row side or column side.
+4. We can arrange the in front of each other without using float property.
+5. The following has some properties of flex,
+
+    a) display: flex 
+        When i use this property all the element arrange in horizantal direction that is in row dirction.
+
+    b) flex-direction: 
+        By default the direction is row. You can change the direction using below properties
+            1. row 
+            2. column 
+            3. row-reverse
+            4. column-reverse
+
+    c) justify-content:
+        This property work in horizantal direction. This property contain some other property like,
+            1. start 
+            2. center 
+            3. end 
+            4. space-between 
+            5. space-around 
+            6. space-evenly
+    
+    d) align-items: 
+        This property works in vertical direction. The following are some properties like,
+            1. start 
+            2. center
+            3. end
+            4. stretch (default)
+
+    e) flex-wrap: 
+        This property can be used for to wrap the content means to break down the content into single parent.
+        The following are some properties like,
+            1. nowrap (default)
+            2. wrap 
+            3. wrap-reverse 
+
+            
+
+
+
+
+
 
