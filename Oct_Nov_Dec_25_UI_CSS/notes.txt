@@ -246,7 +246,7 @@ This property can be used for to arrange the element in horizantal direction. Wh
 ----------------------------------
 This property can be used for to arrange the element in horizantal direction. When we use inline-block than padding-top, margin-top, margin-botton, width and height can work.
 
-=========================================================================================
+======================================================================================
 display as Flex:
 ----------------------------
 1. The meaning of flex is that, to make each div as flexible.  
@@ -287,7 +287,16 @@ display as Flex:
             1. nowrap (default)
             2. wrap 
             3. wrap-reverse 
+    
+    f) flex-basis: 
+        This property can be used for to divide the width between the childs
 
+    g) flex-grow:
+        - This property can be used for to divide the equal width between the child and  also cover the remaining space.
+        - We can use this property on child element.
+        - You can also target single element also.
+
+https://colorhunt.co/palette/091413285a48408a71b0e4cc
             
 
 
