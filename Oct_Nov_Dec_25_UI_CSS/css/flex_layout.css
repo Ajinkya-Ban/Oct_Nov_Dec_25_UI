@@ -17,7 +17,7 @@ body {
 .container {
   width: 80%;
   min-height: 50px;
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -211,9 +211,9 @@ body {
 .col h4::after {
   position: absolute;
   content: "";
-  background-color: crimson;
+  background-color: lightgrey;
   height: 3px;
-  width: 20%;
+  width: 30%;
   top: 28px;
   left: 0;
   transition: all 0.2s linear;
@@ -268,12 +268,114 @@ body {
 .col ul li:hover {
   padding-left: 10px;
 }
-
+/* register code */
 .register {
   display: flex;
   width: 100%;
-  min-height: 50px;
+  min-height: 70px;
   justify-content: center;
   align-items: center;
   background-color: #3e4551;
+}
+.register p {
+  color: white;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.register a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.register a:hover {
+  background-color: #fff;
+  color: #3e4551;
+  border: 2px solid #3e4551;
+}
+
+/* social icons */
+.social {
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3e4551;
+  gap: 15px;
+}
+.social a {
+  color: white;
+  font-size: 1.1em;
+  border: 2px solid #fff;
+  padding: 8px 8px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.social a:hover {
+  background-color: #fff;
+  color: #3e4551;
+  border: 1px solid #3e4551;
+}
+/* copyright */
+.copyright {
+  width: 100%;
+  min-height: 40px;
+  background-color: #010101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.copyright p {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+/* news section code */
+.news {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgoldenrodyellow;
+}
+.news .cont {
+  width: 100%;
+  display: flex;
+}
+.news .cont ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
+.news .cont ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont ul li img {
+  width: 40px;
+  height: 40px;
 }
