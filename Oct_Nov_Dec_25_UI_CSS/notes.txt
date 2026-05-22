@@ -300,6 +300,55 @@ https://colorhunt.co/palette/091413285a48408a71b0e4cc
             
 
 
+---------------------------------------------------------------------------------
+CSS GRID 
+---------------------------
+Q. What is mean by grid in css?
+-------------------------------
+CSS grid can be used in to desgin the webpage in both direct like in rows and colum direction at a time.
+By using CSS Grid we can create 80% of the page responsive.
+You can work in both column and row direction.
+
+By using css grid we can design the pages like, dashboard, image gallery, cards etc.
+Coloumn --> width
+Rows --> height
+
+Grid-Container
+Grid-items
+
+
+The following are some properties of grid.
+-----------------------------------------------------
+1. basic grid properties
+------------------------------
+1. how we can create column --> grid-template-columns
+2. how we can crete rows  --> grid-template-rows
+3. how i can provide the space in row direction --> grid-row-gap
+4. how i can providr the space in column direction --> grid-column-gap
+5. common property for gap --> 5px
+
+2. Positional properties:
+-------------------------------
+For this first you need to know grid number system. 
+1. grid-row-start
+2. grid-row-end 
+3. grid-column-start
+4. grid-column-end
+5. grid-row 
+6. grid-column 
+7. grid-area --> row-start / column-start / row-end / column end
+
+
+
+3. Spanning of grid:
+--------------------------------
+Implicit grid --> 
+Explicit Grid 
+
+
+4. Nested Grid
+------------------------------
+
 
 
 
